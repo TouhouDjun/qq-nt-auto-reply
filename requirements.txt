@@ -1,0 +1,6 @@
+# QQ NT 自动回复机器人 - 运行依赖
+# 安装: python -m pip install -r requirements.txt
+uiautomation>=2.0.0    # QQ 窗口/控件自动化(Windows UIA)
+requests>=2.28.0       # 大模型接口调用 + 后台联网搜索
+pyperclip>=1.8.2       # 剪贴板写入(发送回复用)
+openpyxl>=3.1.0        # 仅 build_learn.py 解析 group_*.xlsx 群聊记录表时需要
